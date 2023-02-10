@@ -1,0 +1,56 @@
+.slider1 {
+
+    .swiper {
+        width: 600px;
+        height: 250px;
+    }
+
+    .swiper-slide {
+        // width: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+        background: rgba(128, 156, 184, 0.712);
+
+        .s-parent {
+            // width: 100%;
+            padding-bottom: 40px;
+            position: relative;
+
+            p {
+                font-size: 12px;
+                display: none;
+            }
+
+            .year {
+                border-top: 2px solid #fff;
+                border-bottom: 2px solid #fff;
+                text-align: center;
+                display: block;
+            }
+        }
+
+    }
+
+    .swiper-slide-active {
+        background: #0024cb;
+        width: 180px !important;
+
+        .s-parent {
+
+            p {
+                padding: 10px;
+                display: block;
+            }
+
+            .year {
+                margin-top: 30px;
+            }
+        }
+    }
+}
