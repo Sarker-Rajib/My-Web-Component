@@ -1,0 +1,210 @@
+.navbar-1 {
+    .navbar-brand {
+        .brand-logo {
+            max-width: 180px;
+        }
+    }
+
+    .navbar-nav .nav-link {
+        color: #444;
+        font-size: 18px;
+
+        &:hover {
+            color: #be0930;
+        }
+
+        &.active {
+            color: #be0930;
+        }
+    }
+}
+
+.navbar-2 {
+    @extend .navbar-1;
+}
+
+.navbar-3 {
+    @extend .navbar-1;
+}
+
+.navbar-4 {
+    @extend .navbar-1;
+
+    .auth-btn {
+        background-color: #be0930;
+        color: #fff;
+        border-color: transparent;
+
+        &:hover {
+            background-color: aqua;
+            color: #444;
+        }
+    }
+}
+
+.navbar-5 {
+    @extend .navbar-1;
+
+    .auth-btn {
+        background-color: #be0930;
+        color: #fff;
+        border-color: transparent;
+
+        &:hover {
+            background-color: aqua;
+            color: #444;
+        }
+    }
+
+    .auth-btn-outline {
+        background-color: transparent;
+        color: #222;
+        border-color: black;
+
+        &:hover {
+            background-color: aqua;
+            color: #444;
+        }
+    }
+}
+
+.navbar-6 {
+    @extend .navbar-1;
+
+    // This buttons is before login
+
+    // .auth-btn {
+    //     background-color: #be0930;
+    //     color: #fff;
+    //     border-color: transparent;
+
+    //     &:hover {
+    //         background-color: aqua;
+    //         color: #444;
+    //     }
+    // }
+
+    // .auth-btn-outline {
+    //     background-color: transparent;
+    //     color: #222;
+    //     border-color: black;
+
+    //     &:hover {
+    //         background-color: aqua;
+    //         color: #444;
+    //     }
+    // }
+
+    .auth-action {
+        .auth-action-btn {
+
+            &:active,
+            &.show {
+                border-color: transparent;
+            }
+
+            .user-avatar {
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                object-fit: cover;
+            }
+        }
+
+        @media screen and (max-width: 991px) {
+            .dropdown-menu-end {
+                --bs-position: start;
+                left: 0;
+                right: auto;
+            }
+        }
+    }
+
+}
+
+.navbar-7 {
+    .navbar-brand {
+        .brand-logo {
+            max-width: 180px;
+        }
+    }
+
+    .navbar-nav .nav-link {
+        color: #444;
+        font-size: 18px;
+
+        &:hover {
+            color: #be0930;
+        }
+
+        i {
+            font-size: 16px;
+            color: red;
+        }
+    }
+}
+
+.navbar-8 {
+    .navbar-brand {
+        .brand-logo {
+            max-width: 180px;
+        }
+    }
+
+    .navbar-nav .nav-link {
+        color: #444;
+        font-size: 18px;
+
+        &:hover {
+            color: #be0930;
+        }
+
+        i {
+            font-size: 16px;
+            color: red;
+        }
+    }
+}
+
+
+.navbar-9 {
+    .navbar-brand {
+        .brand-logo {
+            max-width: 180px;
+        }
+    }
+
+    .navbar-nav .nav-link {
+        color: #444;
+        font-size: 18px;
+
+        &:hover {
+            color: #be0930;
+        }
+
+        i {
+            font-size: 16px;
+            color: red;
+
+            &:hover {
+                color: #09be45;
+            }
+        }
+    }
+
+    .auth-btn {
+        background-color: #be0930;
+        color: #fff;
+        border-color: transparent;
+
+        &:hover {
+            background-color: aqua;
+            color: #444;
+        }
+    }
+}
+
+.navbar-10 {
+    @extend .navbar-9;
+}

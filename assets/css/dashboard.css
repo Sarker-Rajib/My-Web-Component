@@ -1,0 +1,17 @@
+.dashboard {
+  height: 100vh;
+  overflow: hidden;
+}
+.dashboard .side-nav {
+  width: 250px;
+  padding: 30px 15px;
+  background-color: #f8f9fa;
+}
+.dashboard .side-nav .nav-pills .nav-link {
+  text-align: left;
+}
+.dashboard .show-component-box {
+  width: calc(100vw - 250px);
+  min-height: 100vh;
+  border: transparent;
+}/*# sourceMappingURL=dashboard.css.map */
