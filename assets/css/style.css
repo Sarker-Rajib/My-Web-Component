@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navbar-1 .navbar-brand .brand-logo, .navbar-6 .navbar-brand .brand-logo, .navbar-5 .navbar-brand .brand-logo, .navbar-4 .navbar-brand .brand-logo, .navbar-3 .navbar-brand .brand-logo, .navbar-2 .navbar-brand .brand-logo {
   max-width: 180px;
 }
@@ -117,12 +118,126 @@
   color: #444;
 }
 
+.accordion-1 .accordion-header .accordion-button {
+  font-size: 16px;
+  font-weight: 700;
+}
+.accordion-1 .accordion-header .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: red;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-2 .accordion-header .accordion-button {
+  font-size: 16px;
+  font-weight: 700;
+}
+.accordion-2 .accordion-header .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: red;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+.accordion-2 .accordion-header .accordion-button:after {
+  margin-left: initial;
+}
+
+.accordion-3 .accordion-header .accordion-button {
+  font-size: 16px;
+  font-weight: 700;
+}
+.accordion-3 .accordion-header .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: red;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+.accordion-3 .accordion-header .accordion-button:after {
+  background-image: none;
+}
+.accordion-3 .accordion-header .accordion-button:not(.collapsed)::before {
+  background-image: var(--bs-accordion-btn-active-icon);
+  transform: var(--bs-accordion-btn-icon-transform);
+}
+.accordion-3 .accordion-header .accordion-button::before {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: initial;
+  content: "";
+  background-image: var(--bs-accordion-btn-icon);
+  background-repeat: no-repeat;
+  background-size: var(--bs-accordion-btn-icon-width);
+  transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-4 .accordion-header .accordion-button, .accordion-5 .accordion-header .accordion-button {
+  font-size: 16px;
+  font-weight: 700;
+}
+.accordion-4 .accordion-header .accordion-button:not(.collapsed), .accordion-5 .accordion-header .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: red;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+.accordion-4 .accordion-header .accordion-button:not(.collapsed)::after, .accordion-5 .accordion-header .accordion-button:not(.collapsed)::after {
+  content: "−";
+  background-image: none;
+  transform: none;
+}
+.accordion-4 .accordion-header .accordion-button:after, .accordion-5 .accordion-header .accordion-button:after {
+  content: "+";
+  background-image: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.accordion-6 .accordion-header .accordion-button {
+  font-size: 16px;
+  font-weight: 700;
+}
+.accordion-6 .accordion-header .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: red;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-7 .accordion-header .accordion-button {
+  font-size: 16px;
+  font-weight: 700;
+}
+.accordion-7 .accordion-header .accordion-button:not(.collapsed) {
+  color: white;
+  background-color: red;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+.accordion-7 .accordion-header .accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+.accordion-7 .accordion-header .accordion-button:after {
+  background-image: none;
+}
+.accordion-7 .accordion-header .accordion-button:not(.collapsed)::before {
+  content: "−";
+  background-image: none;
+  transform: none;
+}
+.accordion-7 .accordion-header .accordion-button:before {
+  content: "+";
+  background-image: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding-right: 10px;
+}
+
 .dashboard {
   height: 100vh;
   overflow: hidden;
 }
 .dashboard .side-nav {
   width: 250px;
+  padding: 30px 15px;
+  background-color: #f8f9fa;
 }
 .dashboard .side-nav .nav-pills .nav-link {
   text-align: left;
