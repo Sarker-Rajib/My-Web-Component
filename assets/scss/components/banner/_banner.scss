@@ -1,0 +1,181 @@
+.banner-1 {
+    background: #E0F7FF;
+
+    .main-title {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #222;
+    }
+
+    .description {
+        color: #222;
+    }
+
+    .banner-action {
+        .action-btn {
+            background-color: orange;
+            color: #222;
+            font-weight: 500;
+
+            &:hover {
+                background-color: rgba(orange, 0.8);
+            }
+        }
+    }
+}
+
+.banner-2 {
+    background: #E0F7FF;
+
+    .main-title {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #222;
+    }
+
+    .description {
+        color: #222;
+    }
+
+    .banner-action {
+        .action-btn {
+            background-color: orange;
+            color: #222;
+            font-weight: 500;
+
+            &:hover {
+                background-color: rgba(orange, 0.8);
+            }
+        }
+
+        .action-btn-outline {
+            background-color: transparent;
+            border: 1px solid orange;
+            color: #222;
+            font-weight: 500;
+
+            &:hover {
+                background-color: rgba(orange, 0.8);
+                border-color: transparent;
+            }
+        }
+    }
+}
+
+.banner-3 {
+    @extend .banner-2
+}
+
+.banner-4 {
+    @extend .banner-2
+}
+
+.banner-5 {
+    background: #E0F7FF;
+
+    .main-title {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #222;
+    }
+
+    .description {
+        color: #222;
+    }
+
+    .form-group-section {
+        .input-icon {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            z-index: 10;
+            color: #666;
+        }
+
+        .input-group {
+            .form-control {
+                padding-left: 40px;
+                border: 1px solid #1670BD;
+                font-size: 20px;
+            }
+
+            .btn {
+                background-color: #1670BD;
+                border: none;
+                color: #fff;
+                border-radius: .5rem;
+
+                i {
+                    color: #fff;
+                    transition: 0.2s linear;
+                }
+
+                &:hover {
+                    background-color: rgba(#1670BD, 0.8);
+
+                    i {
+                        transform: translateX(3px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.banner-6 {
+    background: #E0F7FF;
+
+    .main-title {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #222;
+    }
+
+    .description {
+        color: #222;
+    }
+
+    .form-group-section {
+        @media (max-width: 768px) {
+            margin: 0 auto;
+        }
+
+        .input-icon {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            z-index: 10;
+            color: #666;
+        }
+
+        .input-group {
+            .form-control {
+                padding-left: 40px;
+                border: 1px solid #1670BD;
+                font-size: 20px;
+            }
+
+            .btn {
+                background-color: #1670BD;
+                border: none;
+                color: #fff;
+                border-radius: .5rem;
+
+                i {
+                    color: #fff;
+                    transition: 0.2s linear;
+                }
+
+                &:hover {
+                    background-color: rgba(#1670BD, 0.8);
+
+                    i {
+                        transform: translateX(3px);
+                    }
+                }
+            }
+        }
+    }
+}
